@@ -1,6 +1,7 @@
 {
   console.log(name);
   var name = "AFFAN";
+  const namee = hello;
   console.log(name);
 }
 

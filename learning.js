@@ -1,9 +1,4 @@
-{
-  console.log(name);
-  var name = "AFFAN";
-  const namee = hello;
-  console.log(name);
+console.log(a(2, 3));
+function a(c, d) {
+  return c + d;
 }
-
-var name = "HELLLO";
-console.log(name);

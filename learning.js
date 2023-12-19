@@ -1,10 +1,3 @@
-// console.log(a(2, 3));
-// function a(c, d) {
-//   return c + d;
-// }
-
-// const b = (c, d) => c + d;
-// console.log(b(3, 4));
 
 console.log(a);
 var a = 20;

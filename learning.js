@@ -13,4 +13,16 @@ let b;
 
 var g = null;
 
-console.log(Number(g));
+// console.log(Number(g));
+
+let c = String(g);
+
+// console.log(c);
+
+let k = "";
+
+if (k) {
+  console.log("hello");
+} else {
+  console.log("no");
+}

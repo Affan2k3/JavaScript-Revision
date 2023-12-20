@@ -16,3 +16,7 @@
 // myArray.push("HELLO");
 
 // console.log(myArray);
+
+let myArr = new Array("a", "b", "c");
+let first = myArr.shift();
+console.log(first);

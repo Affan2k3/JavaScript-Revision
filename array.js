@@ -7,6 +7,7 @@
 // let fruits = ["Apple", "Orange", "Plum"];
 
 // console.log(fruits[fruits.length - 2]);
+
 // console.log(fruits.length);
 
 // let myArray = new Array("1", "2", "3");

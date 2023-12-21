@@ -18,5 +18,6 @@
 // console.log(myArray);
 
 let myArr = new Array("a", "b", "c");
-let first = myArr.shift();
-console.log(first);
+// let first = myArr.pop();
+myArr.length = myArr.length - 1;
+console.log(myArr);

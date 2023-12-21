@@ -21,4 +21,9 @@
 let myArr = new Array("a", "b", "c");
 // let first = myArr.pop();
 myArr.length = myArr.length - 1;
-console.log(myArr);
+// console.log(myArr);
+
+let myArray = new Array("a", "b", "c");
+// let first = myArray.pop();
+myArray.pop();
+console.log(myArray, myArr);

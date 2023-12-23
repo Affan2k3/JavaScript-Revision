@@ -1,69 +1,85 @@
-// let array = new Array(6);
+let i = 0;
+let n = 0;
 
-// array[3] = "Hello";
-// array[3] = "naa";
-// console.log(array);
+while (i < 5) {
+  i++;
 
-// let fruits = ["Apple", "Orange", "Plum"];
+  if (i === 3) {
+    continue;
+  }
 
-// console.log(fruits[fruits.length - 2]);
+  n += i;
+  console.log(n);
+}
 
-// console.log(fruits.length);
+console.log(n);
 
-// let myArray = new Array("1", "2", "3");
+// // let array = new Array(6);
 
-// myArray = myArray.concat("a", "b", "c");
+// // array[3] = "Hello";
+// // array[3] = "naa";
+// // console.log(array);
 
-// myArray.push("HELLO");
+// // let fruits = ["Apple", "Orange", "Plum"];
 
-// console.log(myArray);
+// // console.log(fruits[fruits.length - 2]);
 
-let myArr = new Array("a", "b", "c");
-// let first = myArr.pop();
-myArr.length = myArr.length - 1;
-// console.log(myArr);
+// // console.log(fruits.length);
 
-let myArray = new Array("a", "b", "c");
-// let first = myArray.pop();
-// myArray.pop();
-// myArr.shift();
-let shift = myArr.shift();
+// // let myArray = new Array("1", "2", "3");
 
-// console.log(shift, myArr);
+// // myArray = myArray.concat("a", "b", "c");
 
-// if (-1 == +1) {
-//   console.log("HELLO");
-// } else {
-// //   console.log("NAA");
+// // myArray.push("HELLO");
+
+// // console.log(myArray);
+
+// let myArr = new Array("a", "b", "c");
+// // let first = myArr.pop();
+// myArr.length = myArr.length - 1;
+// // console.log(myArr);
+
+// let myArray = new Array("a", "b", "c");
+// // let first = myArray.pop();
+// // myArray.pop();
+// // myArr.shift();
+// let shift = myArr.shift();
+
+// // console.log(shift, myArr);
+
+// // if (-1 == +1) {
+// //   console.log("HELLO");
+// // } else {
+// // //   console.log("NAA");
+// // // }
+
+// // // const obj = {};
+// // // const obj1 = {};
+// // // console.log(Object.is(obj, obj1));
+
+// // // const big = 0n;
+// // // console.log(big);
+
+// // // const obj = new String("0");
+// // // console.log(obj.);
+// // // obj.string
+// // let y = "hello";
+// // console.log(typeof y === "number");
+
+// // let str = 0;
+
+// // for (let i = 0; i < 9; i++) {
+// //   str = str + i;
 // // }
 
-// // const obj = {};
-// // const obj1 = {};
-// // console.log(Object.is(obj, obj1));
+// // console.log(str);
 
-// // const big = 0n;
-// // console.log(big);
+// let result = "";
+// let i = 0;
 
-// // const obj = new String("0");
-// // console.log(obj.);
-// // obj.string
-// let y = "hello";
-// console.log(typeof y === "number");
+// do {
+//   i = i + 1;
+//   result = result + i;
+// } while (i < 5);
 
-// let str = 0;
-
-// for (let i = 0; i < 9; i++) {
-//   str = str + i;
-// }
-
-// console.log(str);
-
-let result = "";
-let i = 0;
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
-
-console.log(result);
+// console.log(result);

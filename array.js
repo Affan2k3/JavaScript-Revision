@@ -25,6 +25,18 @@ myArr.length = myArr.length - 1;
 
 let myArray = new Array("a", "b", "c");
 // let first = myArray.pop();
-myArray.pop();
+// myArray.pop();
+// myArr.shift();
+let shift = myArr.shift();
 
-console.log(myArray, myArr);
+// console.log(shift, myArr);
+
+if (1 == +1) {
+  console.log("HELLO");
+} else {
+  console.log("NAA");
+}
+
+const obj = {};
+const obj1 = {};
+console.log(Object.is(obj, obj1));

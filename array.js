@@ -34,18 +34,36 @@ let shift = myArr.shift();
 // if (-1 == +1) {
 //   console.log("HELLO");
 // } else {
-//   console.log("NAA");
+// //   console.log("NAA");
+// // }
+
+// // const obj = {};
+// // const obj1 = {};
+// // console.log(Object.is(obj, obj1));
+
+// // const big = 0n;
+// // console.log(big);
+
+// // const obj = new String("0");
+// // console.log(obj.);
+// // obj.string
+// let y = "hello";
+// console.log(typeof y === "number");
+
+// let str = 0;
+
+// for (let i = 0; i < 9; i++) {
+//   str = str + i;
 // }
 
-// const obj = {};
-// const obj1 = {};
-// console.log(Object.is(obj, obj1));
+// console.log(str);
 
-// const big = 0n;
-// console.log(big);
+let result = "";
+let i = 0;
 
-// const obj = new String("0");
-// console.log(obj.);
-// obj.string
-let y = "hello";
-console.log(typeof y === "number");
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+
+console.log(result);

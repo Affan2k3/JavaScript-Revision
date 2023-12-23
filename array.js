@@ -31,11 +31,11 @@ let shift = myArr.shift();
 
 // console.log(shift, myArr);
 
-if (-1 == +1) {
-  console.log("HELLO");
-} else {
-  console.log("NAA");
-}
+// if (-1 == +1) {
+//   console.log("HELLO");
+// } else {
+//   console.log("NAA");
+// }
 
 // const obj = {};
 // const obj1 = {};
@@ -44,6 +44,8 @@ if (-1 == +1) {
 // const big = 0n;
 // console.log(big);
 
-const obj = new String("0");
+// const obj = new String("0");
 // console.log(obj.);
 // obj.string
+let y = "hello";
+console.log(typeof y === "number");

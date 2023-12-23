@@ -45,4 +45,5 @@ if (-1 == +1) {
 // console.log(big);
 
 const obj = new String("0");
-console.log(obj);
+// console.log(obj.);
+// obj.string

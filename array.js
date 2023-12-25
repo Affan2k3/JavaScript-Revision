@@ -26,9 +26,9 @@ for (number of array) {
 }
 
 
-const iterable = "HELLOOO";
+const string = "HELLOOO";
 
-for (const value of iterable) {
+for (const value of string) {
   console.log(value);
 }
 // "b"

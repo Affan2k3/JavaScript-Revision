@@ -1,18 +1,42 @@
-let i = 0;
-let n = 0;
+// let i = 0;
+// let n = 0;
 
-while (i < 5) {
-  i++;
+// while (i < 5) {
+//   i++;
 
-  if (i === 3) {
-    continue;
+//   if (i === 3) {
+//     continue;
+//   }
+
+//   n += i;
+//   console.log(n);
+// }
+
+// console.log(n);
+
+
+
+
+const array = [1, 2, 3, 4, 5,6,7,8,9]
+
+for (number of array) {
+  if (number === 3) {
+    continue
   }
 
-  n += i;
-  console.log(n);
+  if (number === 5) {
+    break
+  }
+
+  console.log(number)
 }
 
-console.log(n);
+
+
+
+
+
+
 
 // // let array = new Array(6);
 

@@ -24,12 +24,24 @@
 
 // FUNCTION EXPRESSIONS
 
-console.log(hello())
+// console.log(hello())
 
- const hello =  function name() {
+//  const hello =  function name() {
     
-    console.log("NAAA")
+//     console.log("NAAA")
 
     
- }
+//  }
 
+
+
+// console.log(multiply(12,1))
+// function multiply(num1, num2) {
+//    const result = num1 + num2
+//    return result
+// }
+
+
+function multiply(num1, num2) { 
+   return num1
+}

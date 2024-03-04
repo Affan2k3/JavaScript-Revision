@@ -42,6 +42,21 @@
 // }
 
 
-function multiply(num1, num2) { 
-   return num1
+// function multiply(num1, num2) {
+//    return num1
+// }
+
+
+// Calll BAck
+
+function Hello(name, callMe) {
+   console.log(name)
+   callMe()
 }
+
+function callBack(num) {
+   console.log(num,"HELLLOOO")
+}
+
+Hello("Affan",callBack,callBack(1))
+
